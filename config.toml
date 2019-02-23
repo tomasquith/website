@@ -2,7 +2,7 @@ baseurl = "https://tomasquith.co.uk/"
 languageCode = "en-US"
 title = "Tom Asquith"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "tomasquith"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 theme = "hugo-sustain"
@@ -11,7 +11,7 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "images/profile.png"
+  avatar = ""
   author = "Tom Asquith"
   description = ""
 
@@ -31,13 +31,13 @@ theme = "hugo-sustain"
   weight = 100
   identifier = "blog"
   url = "/blog/"
-[[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
-[[menu.main]]
-  name = "resume"
-  identifier = "resume"
-  weight = 300
-  url = "/resume/"
+# [[menu.main]]
+#   name = "cv"
+#   identifier = "cv"
+#   weight = 200
+#   url = "/cv/"
+# [[menu.main]]
+#   name = "projects"
+#   identifier = "projects"
+#   weight = 300
+#   url = "/projects/"
