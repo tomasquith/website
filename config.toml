@@ -1,17 +1,17 @@
-baseurl = "https://tomasquith.co.uk/"
-languageCode = "en-US"
+baseurl = "https://tasquith.dev/"
+languageCode = "en-GB"
 title = "Tom Asquith"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "tomasquith"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-135079389-1"
+googleAnalytics = ""
 theme = "hugo-sustain"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "profile.jpg"
+  avatar = "profile.png"
   author = "Tom Asquith"
   description = ""
 
@@ -21,7 +21,6 @@ theme = "hugo-sustain"
 
 [params.social]
   Github        = "tomasquith"
-  Email         = "tom.asquith@outlook.com"
   Twitter       = "tomasquith93"
   LinkedIn      = "tomasquith"
 
